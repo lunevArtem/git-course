@@ -1,6 +1,7 @@
 * {
     margin: 0px;
   }
+  
   body {
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -8,15 +9,15 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: rgb(38, 0, 255);
+    background-color: rgb(0, 238, 255);
   }
   
   a {
     font-size: 32px;
-    color: rgb(255, 255, 255);
+    color: white;
   }
   a:hover {
-    color: rgb(38, 0, 255);
+    color: rgb(0, 238, 255);
   }
   
   div {
@@ -26,7 +27,7 @@
   }
   
   .flex-header {
-    background-color: #5ac84b;
+    background-color: #0e0bad;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 3px;
@@ -37,11 +38,10 @@
     flex: 1;
     padding-top: 3px;
     padding-bottom: 3px;
-    vertical-align: middle;
   }
   
   .flex-article {
-    background-color: #5ac84b;
+    background-color: #0e0bad;
     padding-top: 3rem;
     font-size: 40px;
     flex: 3 3;
@@ -49,14 +49,14 @@
   }
   
   .flex-aside {
-    background-color: #5ac84b;
+    background-color: #0e0bad;
     font-size: 40px;
     padding-top: 3rem;
-    flex: 1 1 3rem;
+    flex: 1 1 5rem;
   }
   
   .flex-footer {
-    background-color: #5ac84b;
+    background-color: #0e0bad;
     font-size: 40px;
     padding-top: 3rem;
     padding-bottom: 3rem;
